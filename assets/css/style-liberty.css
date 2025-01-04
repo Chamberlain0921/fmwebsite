@@ -21247,7 +21247,7 @@ p.inner-page-para {
 .w3l-feature-with-photo-1 .grid-columns-3 {
     grid-template-columns: 1.5fr 1fr 1fr 1fr;
     grid-gap: 30px;
-    align-items: center;
+    align-items: top;
     display: grid;
 }
 
@@ -23390,6 +23390,10 @@ a.blog-desc1:hover {
     /* Firefox 18- */
     color: #666;
     opacity: .5;
+}
+
+.indented-paragraph {
+    text-indent: 4ch; /* 使用字符宽度作为单位 */
 }
 
 /*--//Footer-9--*/
