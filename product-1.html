@@ -12,6 +12,40 @@
     <!--//google-fonts -->
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-liberty.css">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: space-between; /* 图片之间的间距均匀分布 */
+            overflow-x: auto; /* 如果图片超出屏幕宽度，允许横向滚动 */
+        }
+
+        .image-block {
+            text-align: center; /* 文字居中显示 */
+            margin: 0 5px; /* 在图块之间添加一些间距 */
+            box-sizing: border-box; /* 确保间距不会影响图块的总宽度 */
+        }
+
+        .image-block img {
+            width: 80%; /* 图片宽度填满图块 */
+            height: auto; /* 高度自适应 */
+        }
+
+        .image-block2 {
+            text-align: center; /* 文字居中显示 */
+            margin: 0 5px; /* 在图块之间添加一些间距 */
+            box-sizing: border-box; /* 确保间距不会影响图块的总宽度 */
+        }
+
+        .image-block2 img {
+            width: 300px; /* 图片宽度填满图块 */
+            height: 250px;
+        }
+
+        .image-block p {
+            margin: 5px 0; /* 在文本和图片之间添加一些间距 */
+            font-size: 14px; /* 文本字体大小，根据需要调整 */
+        }
+    </style>
 </head>
 
 <body>
@@ -157,10 +191,18 @@
                                 <div style="margin: 16px auto; display: block; text-align:center;">
                                 </div>
 
-                                <img src="assets/images/g4.png" class="img-fluid radius-image" alt="" />
-
-                                <div style="margin: 16px auto; display: block; text-align:center;">
+                                <!-- <img src="assets/images/g4.png" class="img-fluid radius-image" alt="" /> -->
+                                <div class="image-container">
+                                    <div class="image-block"><img src="assets/images/product/p1/p1-1.png" alt="Image 1"><p>6D运动</p></div>
+                                    <div class="image-block"><img src="assets/images/product/p1/p1-2.png" alt="Image 2"><p>360°旋转</p></div>
+                                    <div class="image-block"><img src="assets/images/product/p1/p1-3.png" alt="Image 3"><p>多个动子</p></div>
+                                    <div class="image-block"><img src="assets/images/product/p1/p1-4.png" alt="Image 4"><p>任意布局</p></div>
+                                    <div class="image-block"><img src="assets/images/product/p1/p1-5.png" alt="Image 5"><p>速度</p></div>
+                                    <div class="image-block"><img src="assets/images/product/p1/p1-6.png" alt="Image 6"><p>支持多种载荷</p></div>
+                                    <div class="image-block"><img src="assets/images/product/p1/p1-7.png" alt="Image 7"><p>悬浮</p></div>
                                 </div>
+
+                                <div style="margin: 16px auto; display: block; text-align:center;"></div>
 
                                 <h4 class="">产品优势</h4>
                                 <p class="mb-3">该产品和技术填补了国内柔性智能生产线的空白。<br>
@@ -168,24 +210,32 @@
                                     产品创新性集成式一体化设计，与国外产品相比，性价比更高、可拓展性更强。
                                 </p>
 
-                                <div style="margin: 16px auto; display: block; text-align:center;">
-                                </div>
+                                <div style="margin: 16px auto; display: block; text-align:center;"></div>
 
                                 <img src="assets/images/g5.png" class="img-fluid radius-image" alt="" />
 
-                                <div style="margin: 16px auto; display: block; text-align:center;">
-                                </div>
+                                <div style="margin: 16px auto; display: block; text-align:center;"></div>
+
+
                                 <h4 class="">核心技术</h4>
-                                <p class="mb-3">空间六自由度运动导向基准技术：突破了空间六自由度运动导向基准技术，利用多维度非接触传感器，实现对载荷动子在平台上的绝对位移进行测量的装置。<br>
-                                    多动子协同技术：突破了多个载荷动子的运动路径规划、组合设置、编队控制、防碰撞机制处理以及输送系统的总体设置和监控问题，开发了一套基于EtherCAT/PowerLink的嵌入式主站运动监控系统。
-                                </p>
+                                <p class="mb-3 indented-paragraph">空间六自由度运动导向基准技术：突破了空间六自由度运动导向基准技术，利用多维度非接触传感器，实现对载荷动子在平台上的绝对位移进行测量的装置。</p>
+                                <p class="mb-3 indented-paragraph">多动子协同技术：突破了多个载荷动子的运动路径规划、组合设置、编队控制、防碰撞机制处理以及输送系统的总体设置和监控问题，开发了一套基于EtherCAT/PowerLink的嵌入式主站运动监控系统。</p>
 
-                                <div style="margin: 16px auto; display: block; text-align:center;">
+                                <div style="margin: 16px auto; display: block; text-align:center;"></div>
+
+                                <!-- <img src="assets/images/g8.png" class="img-fluid radius-image" alt="" width=500px height=auto /> -->
+
+                                <div style="margin: 16px auto; display: block; text-align:center;"></div>
+
+                                <h4 class="">应用场景</h4>
+                                <div class="image-container">
+                                    <div class="image-block2"><img src="assets/images/product/p1/p1-8.png" alt="Image 1" ><p>半导体加工：精密检测</p></div>
+                                    <div class="image-block2"><img src="assets/images/product/p1/p1-9.png" alt="Image 2"><p>物流运输：灵活装配</p></div>
                                 </div>
-
-                                <img src="assets/images/g8.png" class="img-fluid radius-image" alt="" />
-
-                                <div style="margin: 16px auto; display: block; text-align:center;">
+                                <div style="margin: 16px auto; display: block; text-align:center;"></div>
+                                <div class="image-container">
+                                    <div class="image-block2"><img src="assets/images/product/p1/p1-10.png" alt="Image 3"><p>医疗器械 ：洁净生产 / 移液采样</p></div>
+                                    <div class="image-block2"><img src="assets/images/product/p1/p1-11.png" alt="Image 4"><p>日用品 ：混线产线 / 灌装包装 / 贴标检测</p></div>
                                 </div>
 
                             </div>
